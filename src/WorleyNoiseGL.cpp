@@ -68,7 +68,7 @@ void WorleyNoiseGL::setupFramebuffer()
 void WorleyNoiseGL::setupShaders()
 {
     // Setup vertex and fragment shaders
-    ShaderProgram basicVert( "../Shared/shaders/BasicVert.vert", GL_VERTEX_SHADER );
+    ShaderProgram basicVert( "shaders/BasicVert.vert", GL_VERTEX_SHADER );
     basicVert.Compile();
     ShaderProgram noiseFrag( "shaders/WorleyNoise.frag", GL_FRAGMENT_SHADER );
 
